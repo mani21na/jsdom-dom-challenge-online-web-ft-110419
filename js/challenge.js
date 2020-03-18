@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function incrementCounter() {
         const count = document.getElementById('counter')
         let num = parseInt(count.innerText) + 1
+        //debugger
         count.innerText = num.toString()
     }
 
